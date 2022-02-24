@@ -1,0 +1,190 @@
+/* Base styles */
+
+html, body, header {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+/* Navigation */
+
+nav .navbar-brand {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* Jumbotrom */
+
+.background {
+	position: relative;
+}
+
+.background .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.background .container h1 {
+	color: #FFF;
+	font-size: 5em;
+	line-height: 105%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.background .container h2 {
+	color: #FFF;
+	font-size: 3em;
+	line-height: 105%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.background .container p {
+	margin-top: 0;
+	color: #FFF;
+	text-align: center;
+}
+
+.jumbotron {
+    background-image:url('https://i.imgur.com/gc1HjiF.jpg');
+	height: 600px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+}
+
+/* Section About*/
+.sectionAbout {
+	margin-bottom: 50px;
+}
+
+.sectionAbout h3 {
+	margin-bottom: 30px; 
+}
+.serviceBox{
+	margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.serviceBox .service-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto 45px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.serviceBox .service-icon span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    
+}
+
+.serviceBox .service-icon span i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.serviceBox .title{
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+.serviceBox .description{
+    font-size: 15px;
+    color: #555;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.zoom {
+	padding: 50px;
+	transition: transform .2s; 
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+  }
+  
+  .zoom:hover {
+	transform: scale(1.2); 
+  }
+
+/*Section Travel Options*/
+
+.travelOptions h3 {
+	margin-bottom: 50px;
+}
+
+.travelOptions p {
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+.travelOptions h6 {
+	font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+	height: 100px;
+	background: url('https://imgur.com/gc1HjiF');
+	position: relative;
+}
+
+footer ul {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+footer ul li {
+	list-style-type: none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #333;
+	color: #FFF;
+	text-align: center;
+	margin: 0 15px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+footer ul li a:hover {
+	transition: .5s;
+	color: #333;
+	background: #FFF;
+}
+footer p {
+	text-align: center;
+	display: block;
+}
+
+
